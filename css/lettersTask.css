@@ -1,0 +1,8 @@
+/* global styles */
+:root {
+    --main-bg-color: #003366;
+    --main-font: 'Poppins', sans-serif;
+    --grey-color: #7C7C7C;
+    --lightBlue-color: #398FFF;
+    --silver-color:  #EDEFF1;
+}  
