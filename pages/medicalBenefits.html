@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find-Provider</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/reqIdCard.css" />
+    <link rel="stylesheet" href="../css/medicalBenefits.css" />
     <!-- Bootstrap file -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <!-- google fonts -->
@@ -71,6 +71,7 @@
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
+
                         <button class="select-btn px-3">
                             <i class="fa-solid fa-chevron-down"></i>
                         </button>
@@ -92,15 +93,16 @@
                             </button>
                         </a>
                         <a href="./reqIdCard.html">
-                            <button type="button" class="btn chip-button py-1 mx-3 active ">
+                            <button type="button" class="btn chip-button py-1 mx-3 ">
                                 Member ID Card
                             </button>
                         </a>
                         <a href="./medicalBenefits.html">
-                            <button type="button" class="btn chip-button py-1 mx-3 ">
+                            <button type="button" class="btn chip-button py-1 mx-3 active">
                                 View Medical Benefits
                             </button>
                         </a>
+
                         <button type="button" class="btn chip-button py-1 mx-3">
                             View Medical & Rx Claims
                         </button>
@@ -115,76 +117,69 @@
             </div>
         </section>
         <section>
-            <div class="container">
+            <div class="container mt-2">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
-                        <div class="card card-shadow h-100">
-                            <div
-                                class="card-header header-title d-flex justify-content-center align-items-center text-center w-100">
-                                <h3 class="m-0 text-white weight-500">PRINT MEMBER ID CARD</h3>
+                    <div class="col-md-12">
+                        <h3 class="weight-400 blue"> BENEFITS COVERD BY YOUR MEDICAL PLAN</h3>
+                        <p class="weight-400">These benefits document(s) are for your current plan. For information on
+                            holder plans, change
+                            the filter to inactive.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <div>
+                            <h5>Benefits Filters</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="filter-box p-2 d-flex justify-content-between align-items-center ">
+                            <div>
+                                <p class="caption mb-0">Status</p>
                             </div>
-                            <div class="h-100 px-5 pt-4 pb-5 d-flex flex-column justify-content-between">
-                                <div>
-                                    <h5 class="weight-400">Need proof of coverage today? View of print a copy of
-                                        your health plan ID.</h5>
-                                </div>
-                                <div class="d-flex justify-content-center ">
-                                    <button type="button" class="btn print-card-btn py-1 mx-1">
-                                        View / Print ID Card
-                                    </button>
-                                </div>
+                            <div>
+                                <select class="form-select form-select-sm filter-select"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>active</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <i class="fa-solid fa-caret-down drop-down-icon"></i>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-lg-6 col-md-12 col-sm-12 mt-5">
-                        <div class="card card-shadow h-100">
-                            <div
-                                class="card-header header-title d-flex justify-content-center align-items-center text-center w-100">
-                                <h3 class="m-0 text-white weight-500">REQUEST MEMBER ID CARD BY MAIL</h3>
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card card-shadow h-100">
+                                    <div class="card-header header-title d-flex justify-content-between align-items-center">
+                                      <h4 class="m-0 text-white weight-400">ZT1-532001-MEDICAL BASE HEALTHLINK</h4>
+                                      <img src="../assets/arrowRight.svg" alt="icon" />
+                                    </div>
+                                    <div class="card-body">
+                                      <div class="">
+                                      
+                                        <p class="weight-400 caption2 black mt-3 px-4">This is the description, lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit.</p>
+                                      </div>
+                                    </div>
+                                  </div>
                             </div>
-                            <div class="px-3 py-4 pb-5">
-                                <div>
-                                    <h5 class="weight-400">Need new health card(s)? Please indicate the number of
-                                        health cards needed and select the Submit Request button.</h5>
-                                </div>
-                                <div class="d-flex flex-wrap w-100 align-items-center mt-4">
-                                    <div class="input-container heading-container d-flex align-items-center">
-                                        <h5 class="weight-500 mb-0"> Number of Card(s)</h5>
+                            <div class="col-md-6">
+                                <div class="card card-shadow h-100">
+                                    <div class="card-header header-title d-flex justify-content-between align-items-center">
+                                      <h4 class="m-0 text-white weight-400">ALL PLANS</h4>
+                                      <img src="../assets/arrowRight.svg" alt="icon" />
                                     </div>
-                                    <div class="input-container ">
-                                        <form class="d-flex">
-                                            <div class="w-50 d-flex align-items-center">
-                                                <input type="email" class="form-control request-id"
-                                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                                            </div>
-                                            <button type="button" class="btn print-card-btn py-1 mx-1 w-50">
-                                                Submit Request
-                                            </button>
-                                        </form>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                      <div class="">
+                                        <p class="weight-400 caption2 black mt-3 px-4">This is the description, lorem ipsum dolor sit amet,
+                                            consectetur adipiscing elit.</p>
+                                      </div>
+                                      <div class="d-flex justify-content-center ">
+                                          <a href="#" class="text-decoration-none" ><p class="caption ">Link</p></a>
+                                      </div>
                                     </div>
-                                </div>
-                                <div>
-                                    <h5 class="weight-400 mt-4">The card(s) will be mailed to your current
-                                        correspondence
-                                        address on file. If incorrect, please update your address
-                                        before submitting your request.</h5>
-                                </div>
-                                <div class="row d-flex justify-content-center mt-4">
-                                    <div
-                                        class="col-6 text-center d-flex flex-column justify-content-center align-items-center ">
-                                        <div>
-                                            <h5 class="weight-500 mb-0">225 Smith Rd</h5>
-                                        </div>
-                                        <div>
-                                            <h5 class="weight-500 mb-0"> St.Charles, IL - 60174</h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 d-flex justify-content-center align-items-center">
-                                        <button type="button" class="btn print-card-btn py-1 mx-1 ">
-                                            Edit Address
-                                        </button>
-                                    </div>
-                                </div>
+                                  </div>
                             </div>
                         </div>
                     </div>
