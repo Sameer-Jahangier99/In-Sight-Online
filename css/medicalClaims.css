@@ -1,0 +1,134 @@
+/* global styles */
+:root {
+    --main-bg-color: #003366;
+    --main-font: 'Poppins', sans-serif;
+    --grey-color: #7C7C7C;
+    --lightBlue-color: #398FFF;
+    --silver-color: #EDEFF1;
+    --sky-blue: #D9E6F3;
+}
+
+.select-container{
+    border: 1px solid var(--main-bg-color) !important;
+    background-image: none !important;
+    color: var(--main-bg-color) !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.select-btn {
+    background-color: var(--main-bg-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* chip component */
+
+.chip-container {
+    background-color: var(--silver-color);
+}
+
+.chip-layout{
+   border: 1px solid var(--main-bg-color);
+}
+
+.chip-button {
+    border: 1px solid var(--main-bg-color) !important;
+    border-radius: 20px !important;
+    font-size: 14px !important;
+}
+
+.chip-button:hover {
+    background: var(--main-bg-color) !important;
+    color: #ffffff !important;
+}
+
+.active{
+    background: var(--main-bg-color) !important;
+    color: #ffffff !important;
+}
+
+
+@media only screen and (max-width: 1200px)  {
+    .chip-container {
+        display: none !important;
+    }
+}
+
+
+/* filter boxes */
+
+.filter-box{
+   background: var(--sky-blue);
+}
+
+.filter-select{
+    border: 1px solid #003366 !important;
+    border-radius: 0px !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    background-image: none !important;
+}
+
+.drop-down-icon{
+   
+    float: right;
+    margin-top: -22px;
+    margin-right: 5px;
+    color: var(--main-bg-color) !important;
+}
+
+
+ /* checkbox */
+ .custom-checkbox {
+     background-color: #56AAFF !important;
+     border: none !important;
+ }
+
+ /* date picker */
+ .date-picker{
+     padding: 0px !important;
+     border: 1px solid  var(--main-bg-color) !important;
+     border-radius: 0px !important;
+     font-size: 10px !important;
+     padding: 0px 25px !important;
+     font-weight: 600 !important;
+     font-family: 'Poppins', sans-serif !important;
+ }
+
+
+ /* medical claim boxes */
+ .medical-claimBox{
+     background: var(--main-bg-color) !important;
+     border-radius: 5px;
+ }
+
+
+ .print-btn{
+     background: none !important;
+     color: #ffffff !important;
+     border: 1px solid #ffffff !important;
+     border-radius: 0px !important;
+ }
+
+ .print-btn:hover{
+    background: white !important;
+    color: #000000 !important;
+    border: 1px solid #ffffff !important;
+}
+
+.export-btn{
+   border-radius: 0px !important;
+}
+
+.claim-list{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.box-title{
+    width: 40%;
+}

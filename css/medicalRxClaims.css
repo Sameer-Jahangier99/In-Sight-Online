@@ -1,0 +1,63 @@
+/* global styles */
+:root {
+    --main-bg-color: #003366;
+    --main-font: 'Poppins', sans-serif;
+    --grey-color: #7C7C7C;
+    --lightBlue-color: #398FFF;
+    --silver-color: #EDEFF1;
+    --sky-blue: #D9E6F3;
+}
+
+.select-container{
+    border: 1px solid var(--main-bg-color) !important;
+    background-image: none !important;
+    color: var(--main-bg-color) !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.select-btn {
+    background-color: var(--main-bg-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* chip component */
+
+.chip-container {
+    background-color: var(--silver-color);
+}
+
+.chip-layout{
+   border: 1px solid var(--main-bg-color);
+}
+
+.chip-button {
+    border: 1px solid var(--main-bg-color) !important;
+    border-radius: 20px !important;
+    font-size: 14px !important;
+}
+
+.chip-button:hover {
+    background: var(--main-bg-color) !important;
+    color: #ffffff !important;
+}
+
+.active{
+    background: var(--main-bg-color) !important;
+    color: #ffffff !important;
+}
+
+
+@media only screen and (max-width: 1200px)  {
+    .chip-container {
+        display: none !important;
+    }
+}
+
+
+.box-container {
+    border: 1px solid #c4c4c4;
+}
