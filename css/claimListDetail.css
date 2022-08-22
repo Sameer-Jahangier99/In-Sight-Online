@@ -8,7 +8,7 @@
     --sky-blue: #D9E6F3;
 }
 
-.select-container{
+.select-container {
     border: 1px solid var(--main-bg-color) !important;
     background-image: none !important;
     color: var(--main-bg-color) !important;
@@ -30,8 +30,8 @@
     background-color: var(--silver-color);
 }
 
-.chip-layout{
-   border: 1px solid var(--main-bg-color);
+.chip-layout {
+    border: 1px solid var(--main-bg-color);
 }
 
 .chip-button {
@@ -45,15 +45,20 @@
     color: #ffffff !important;
 }
 
-.active{
+.active {
     background: var(--main-bg-color) !important;
     color: #ffffff !important;
 }
 
 
-@media only screen and (max-width: 1200px)  {
+@media only screen and (max-width: 1200px) {
     .chip-container {
-        display: none !important;
+        overflow-y: scroll;
+
+    }
+
+    .chip-button {
+        width: 200px;
     }
 }
 
@@ -65,28 +70,31 @@
 
 .back-btn:hover {
     background: var(--main-bg-color) !important;
-    border: none ;
+    border: none;
     color: #ffffff !important;
 }
+
+
 
 
 .btn-text {
     color: var(--lightBlue-color) !important;
 }
+
 .btn-text:hover {
     color: #ffffff !important;
 }
 
 
 /* detail box design */
-.detail-print-btn{
+.detail-print-btn {
     border: 1px solid var(--lightBlue-color) !important;
     border-radius: 0px !important;
 }
 
-.detail-print-btn:hover{
-     background: var(--lightBlue-color) !important;
-     color: #ffffff !important;
+.detail-print-btn:hover {
+    background: var(--lightBlue-color) !important;
+    color: #ffffff !important;
 }
 
 
@@ -100,31 +108,33 @@
     color: #ffffff !important;
     border-radius: 0px !important;
 }
+
 .detail-export-btn:hover {
     background: var(--lightBlue-color) !important;
     color: #ffffff !important;
 }
 
-.list-info{
+.list-info {
     width: 60%;
 }
 
-.list-details{
+.list-details {
     width: 40%;
 }
-.visiblility-hidden{
+
+.visiblility-hidden {
     visibility: hidden;
 }
 
 @media only screen and (min-width: 800px) {
-     .price-container{
-         width: 30%;
-         text-align: start;
-     }
+    .price-container {
+        width: 30%;
+        text-align: start;
+    }
 }
 
 @media only screen and (max-width: 700px) {
-    .price-container{
+    .price-container {
         width: auto;
         text-align: end;
     }

@@ -50,12 +50,16 @@
     color: #ffffff !important;
 }
 
-
-@media only screen and (max-width: 1200px)  {
+@media only screen and (max-width: 1200px) {
     .chip-container {
-        display: none !important;
+        overflow-y: scroll;
+
+    }
+    .chip-button {
+        width: 200px;
     }
 }
+
 
 
 /* filter boxes */
