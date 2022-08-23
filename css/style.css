@@ -209,7 +209,6 @@ span {
 /* navbar styling */
 .nav-container {
     background: var(--main-bg-color) !important;
-
 }
 
 li a {
@@ -246,6 +245,41 @@ li a {
     height: 15px;
 }
 
+/* filter boxes */
+
+.filter-box{
+    background: var(--sky-blue);
+ }
+ 
+ .filter-select{
+     border: 1px solid #003366 !important;
+     border-radius: 0px !important;
+     font-family: 'Poppins', sans-serif !important;
+     font-size: 10px !important;
+     font-weight: 600 !important;
+     background-image: none !important;
+ }
+ 
+ .drop-down-icon{
+    
+     float: right;
+     margin-top: -22px;
+     margin-right: 5px;
+     color: var(--main-bg-color) !important;
+ }
+
+ .select-form-width{
+    width: 30%;
+}
+
+ @media only screen and (max-width: 1390px) {
+    .select-form-width{
+        width: 80%;
+        margin-top: 5px;
+    }
+}
+
+
 /* plans styling */
 
 .card-shadow {
@@ -256,6 +290,14 @@ li a {
     background-color: var(--main-bg-color) !important;
 }
 
+
+.select-container{
+    border: 1px solid var(--main-bg-color) !important;
+    background-image: none !important;
+    color: var(--main-bg-color) !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
 
 
 /* navbar mobile setting */
