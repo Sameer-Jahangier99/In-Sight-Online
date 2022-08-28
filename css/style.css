@@ -9,6 +9,10 @@
     --green-color: #04BD00;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 body {
     margin: 0;
     padding: 0;

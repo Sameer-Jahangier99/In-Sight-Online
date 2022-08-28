@@ -25,6 +25,10 @@
 
 
 /* chip component */
+.links-container{
+    background-color: var(--silver-color);
+}
+
 
 .chip-container {
     background-color: var(--silver-color);
@@ -50,14 +54,24 @@
     color: #ffffff !important;
 }
 
+.arrow{
+    display: none;
+}
 @media only screen and (max-width: 1200px) {
     .chip-container {
         overflow-y: scroll;
+        scroll-behavior: smooth;
 
     }
-
     .chip-button {
         width: 200px;
+    }
+    .arrow{
+        display: inline-block;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

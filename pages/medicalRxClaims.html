@@ -80,41 +80,53 @@
                 </div>
         </section>
         <section>
-            <div class="row chip-container">
-                <div class="col-md-12">
-                    <div class="container py-2 d-flex  mx-0 mx-lg-auto">
-                        <a href="../index.html">
-                            <button type="button" class="btn chip-button py-1 me-3">
-                                Home
-                            </button>
-                        </a>
-                        <a href="./reqIdCard.html">
-                            <button type="button" class="btn chip-button py-1 mx-3 ">
-                                Member ID Card
-                            </button>
-                        </a>
-                        <a href="./medicalBenefits.html">
-                            <button type="button" class="btn chip-button py-1 mx-3 ">
-                                View Medical Benefits
-                            </button>
-                        </a>
-                        <a href="./medicalClaims.html">
-                            <button type="button" class="btn chip-button py-1 mx-3 active">
-                                View Medical & Rx Claims
-                            </button>
-                        </a>
-                        <a href="#">
-                            <button type="button" class="btn chip-button py-1 mx-3">
-                                Submit Medical Claims
-                            </button>
-                        </a>
-                        <a href="#">
-                            <button type="button" class="btn chip-button py-1 mx-3">
-                                Medical Plan Cost Share
-                            </button>
-                        </a>
-                    </div>
+            <div class="d-flex justify-content-between links-container align-items-center">
+                <div class="arrow" id="slide-left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                 </div>
+                 <div class="py-2 d-flex mx-0 mx-lg-auto chip-container" id="link-container">
+                    <a href="../index.html" >
+                        <button type="button" class="btn chip-button py-1 me-3" id="#divElem">
+                            Home
+                        </button>
+                    </a>
+                    <a href="./reqIdCard.html">
+                        <button type="button" class="btn chip-button py-1 mx-3 active ">
+                            Member ID Card
+                        </button>
+                    </a>
+                    <a href="./medicalBenefits.html" >
+                        <button type="button" class="btn chip-button py-1 mx-3 ">
+                            View Medical Benefits
+                        </button>
+                    </a>
+                    <a href="./medicalClaims.html">
+                        <button type="button" class="btn chip-button py-1 mx-3">
+                            View Medical & Rx Claims
+                        </button>
+                    </a>
+
+                    <a href="#" >
+                        <button type="button" class="btn chip-button py-1 mx-3">
+                            Submit Medical Claims
+                        </button>
+                    </a>
+                    <a href="#">
+
+                        <button type="button" class="btn chip-button py-1 mx-3">
+                            Medical Plan Cost Share
+                        </button>
+                    </a>
+                     <a href="#" >
+
+                        <button type="button" class="btn chip-button py-1 mx-3">
+                            Medical Plan Cost Share
+                        </button>
+                    </a>
                 </div>
+                 <div class="arrow" id="slide-right">
+                    <i class="fa-solid fa-chevron-right"></i>
+                 </div>
             </div>
         </section>
         <section>
@@ -279,6 +291,7 @@
         </section>
     </main>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scroll.js"></script>
 </body>
 
 </html>
