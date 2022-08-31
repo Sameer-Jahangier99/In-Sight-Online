@@ -36,7 +36,7 @@
                     <li class="nav-item responsive-icon">
                         <a class="nav-link" href="./findProvider.html">Find Provider</a>
                     </li>
-                    <li class="nav-item responsive-icon">
+                    <li class="nav-item responsive-icon active">
                         <a class="nav-link active" href="#">Req ID Card</a>
                     </li>
                     <li class="nav-item responsive-icon">
@@ -58,8 +58,42 @@
         </div>
     </nav>
     <main>
+        <section class="drawer-navigation container mt-3 mb-5">
+            <button class="btn btn-primary navigation-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="fas fa-link"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h3 class="offcanvas-title" id="offcanvasExampleLabel">Links</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="list-group list-group-flush">
+                    <a href="../index.html" class="text-decoration-none" > 
+                        <li class="list-group-item ">Home</li>
+                    </a>
+                    <a href="./reqIdCard.html"  class="text-decoration-none">
+                        <li class="list-group-item active"> Member ID Card</li>
+                    </a>
+                    <a href="./medicalBenefits.html" class="text-decoration-none" >
+
+                        <li class="list-group-item">View Medical Benefits</li>
+                    </a>
+                    <a href="./medicalClaims.html" class="text-decoration-none">
+                        <li class="list-group-item">View Medical & Rx Claims</li>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <li class="list-group-item">Submit Medical Claims</li>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <li class="list-group-item">Medical Plan Cost Share</li>
+                    </a>
+                  </ul>
+              </div>
+            </div>
+        </section>
         <section class="container">
-            <div class="row  d-flex align-items-center py-3 py-lg-5 py-md-5">
+            <div class="row d-flex align-items-center mt-3 mt-lg-5 mb-2 mb-lg-5 mb-md-0">
                     <div class="col-lg-2 col-md-12 col-sm-12">
                         <div class="input-group">
                             <select class="form-select select-container py-0" aria-label="Default select example">
@@ -79,12 +113,9 @@
                     </div>
                 </div>
         </section>
-        <section>
+        <section class="navigation-container mb-5">
             <div class="d-flex justify-content-between links-container align-items-center">
-                <div class="arrow" id="slide-left">
-                    <i class="fa-solid fa-chevron-left"></i>
-                 </div>
-                 <div class="py-2 d-flex mx-0 mx-lg-auto chip-container" id="link-container">
+                 <div class="py-2 d-flex container  chip-container" id="link-container">
                     <a href="../index.html" >
                         <button type="button" class="btn chip-button py-1 me-3 w-75" id="#divElem">
                             Home
@@ -117,22 +148,13 @@
                             Medical Plan Cost Share
                         </button>
                     </a>
-                     <a href="#" >
-
-                        <button type="button" class="btn chip-button py-1 mx-3">
-                            Medical Plan Cost Share
-                        </button>
-                    </a>
                 </div>
-                 <div class="arrow" id="slide-right">
-                    <i class="fa-solid fa-chevron-right"></i>
-                 </div>
             </div>
         </section>
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="card card-shadow h-100">
                             <div
                                 class="card-header header-title d-flex justify-content-center align-items-center text-center w-100">
@@ -151,7 +173,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" col-lg-6 col-md-12 col-sm-12 mt-5">
+                    <div class=" col-lg-6 col-md-12 col-sm-12">
                         <div class="card card-shadow h-100">
                             <div
                                 class="card-header header-title d-flex justify-content-center align-items-center text-center w-100">

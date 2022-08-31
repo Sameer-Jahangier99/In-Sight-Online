@@ -60,11 +60,43 @@
     display: none;
 }
 
+.drawer-left{
+    display: none;
+}
+
+.drawer-navigation{
+    display: none;
+}
+
+.navigation-btn{
+    background-color: var(--main-bg-color) !important;
+    border: none;
+    position: fixed;
+    z-index: 1;
+}
+
+.active-drawer-link {
+    border: 1px solid var(--main-bg-color);
+}
+
+.list-group-item:hover {
+    background: var(--main-bg-color);
+    color: #ffffff;
+    border: none !important;
+}
+.list-group-item {
+    background: var(--main-bg-color);
+    color: #ffffff;
+    border: none !important;
+    border-bottom: 0.5px solid var(--main-bg-color) !important;
+}
 @media only screen and (max-width: 1200px) {
+    .navigation-container{
+        display: none;
+    }
     .chip-container {
         overflow-y: scroll;
         scroll-behavior: smooth;
-
     }
     .chip-button {
         width: 200px;
@@ -76,7 +108,12 @@
         justify-content: center;
         align-items: center;
     }
+    .drawer-navigation{
+        display: flex;
+        justify-content: end;
+    }
 }
+
 
 
 /* filter boxes */
