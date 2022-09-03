@@ -77,6 +77,11 @@
     border: none !important;
     border-bottom: 0.5px solid var(--main-bg-color) !important;
 }
+
+.select-selected {
+    display: none;
+} 
+
 @media only screen and (max-width: 1200px) {
     .navigation-container{
         display: none;
@@ -88,17 +93,17 @@
     .chip-button {
         width: 200px;
     }
-    .arrow{
-        display: inline-block;
-        width: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     .drawer-navigation{
         display: flex;
         justify-content: end;
     }
+    .select-list {
+        display: block;
+    }
+    .select-selected {
+        display:  block;
+    }
+
 }
 
 /* red Id card styling */
