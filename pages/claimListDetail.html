@@ -58,39 +58,6 @@
         </div>
     </nav>
     <main class="mb-3">
-        <section class="drawer-navigation container mt-3 mb-5">
-            <button class="btn btn-primary navigation-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                <i class="fas fa-link"></i>
-            </button>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-              <div class="offcanvas-header">
-                <h3 class="offcanvas-title" id="offcanvasExampleLabel">Links</h3>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="list-group list-group-flush">
-                    <a href="../index.html" class="text-decoration-none" > 
-                        <li class="list-group-item ">Home</li>
-                    </a>
-                    <a href="./reqIdCard.html"  class="text-decoration-none">
-                        <li class="list-group-item "> Member ID Card</li>
-                    </a>
-                    <a href="./medicalBenefits.html" class="text-decoration-none" >
-                        <li class="list-group-item">View Medical Benefits</li>
-                    </a>
-                    <a href="./medicalClaims.html" class="text-decoration-none">
-                        <li class="list-group-item active">View Medical & Rx Claims</li>
-                    </a>
-                    <a href="#" class="text-decoration-none">
-                        <li class="list-group-item">Submit Medical Claims</li>
-                    </a>
-                    <a href="#" class="text-decoration-none">
-                        <li class="list-group-item">Medical Plan Cost Share</li>
-                    </a>
-                  </ul>
-              </div>
-            </div>
-        </section>
         <section class="container">
             <div class="row  d-flex align-items-center mt-3 mt-lg-5 mb-2 mb-lg-5 mb-md-0">
                     <div class="col-lg-2 col-md-12 col-sm-12">
@@ -112,6 +79,57 @@
                     </div>
                 </div>
         </section>
+        <section class="container my-3">
+            <div class="dropdown">
+                <div class="dropdown-select">
+                    <p class="select link-text ">Member ID Card</p>
+                    <i class="fa-solid fa-chevron-down arrow-down"></i>
+                </div>
+                <div class="dropdown-list">
+                    <a href="../index.html" class="text-decoration-none navigation-link">
+                        <div class="d-flex align-items-center ">
+                            <i class="fas fa-check ms-1 invisible"></i>
+                            <p class="dropdown-list__item link-text">Home</p>
+                        </div>
+                    </a>
+                    <hr class="solid">
+                    <a href="./reqIdCard.html" class="text-decoration-none navigation-link">
+                        <div class="d-flex align-items-center ">
+                            <i class="fas fa-check ms-1 invisible"></i>
+                            <p class="dropdown-list__item link-text">Member ID Card</p>
+                        </div>
+                    </a>
+                    <hr class="solid">
+                    <a href="./medicalBenefits.html" class="text-decoration-none navigation-link">
+                        <div class="d-flex align-items-center ">
+                            <i class="fas fa-check invisible"></i>
+                            <p class="dropdown-list__item link-text">View Medical Benefits</p>
+                        </div>
+                    </a>
+                    <hr class="solid">
+                    <a href="./medicalRxClaims.html" class="text-decoration-none navigation-link">
+                        <div class="d-flex align-items-center ">
+                            <i class="fas fa-check"></i>
+                            <p class="dropdown-list__item link-text">View Medical & Rx Claims</p>
+                        </div>
+                    </a>
+                    <hr class="solid">
+                    <a href="./medicalClaims.html" class="text-decoration-none navigation-link">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-check invisible"></i>
+                            <p class="dropdown-list__item link-text">Submit Medical Claims</p>
+                        </div>
+                    </a>
+                    <hr class="solid">
+                    <a href="./findProvider.html" class="text-decoration-none navigation-link">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-check invisible"></i>
+                            <p class="dropdown-list__item link-text">Medical Plan Cost Share</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
         <section class="navigation-container mb-5">
             <div class="d-flex justify-content-between links-container align-items-center">
                 <div class="arrow" id="slide-left">
@@ -124,7 +142,7 @@
                         </button>
                     </a>
                     <a href="./reqIdCard.html">
-                        <button type="button" class="btn chip-button py-1 mx-3 active ">
+                        <button type="button" class="btn chip-button py-1 mx-3  ">
                             Member ID Card
                         </button>
                     </a>
@@ -134,7 +152,7 @@
                         </button>
                     </a>
                     <a href="./medicalClaims.html">
-                        <button type="button" class="btn chip-button py-1 mx-3">
+                        <button type="button" class="btn chip-button py-1 mx-3 active">
                             View Medical & Rx Claims
                         </button>
                     </a>
