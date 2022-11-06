@@ -1,0 +1,120 @@
+.dashboard-box {
+  /* background-color: #46cd2f; */
+  background-color: #6c757d;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.dashboard-box i {
+  display: none;
+}
+
+.dashboard-box span {
+  color: white;
+  margin-left: 5px;
+}
+
+/* For active dashboard box  */
+.dashboard-box-active {
+  background-color: #46cd2f;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.dashboard-box-active i {
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+  color: #46cd2f;
+}
+
+.dashboard-box-active span {
+  color: white;
+  margin-left: 5px;
+}
+
+.waive-btn {
+  background-color: #343a40;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+}
+
+.profile-main {
+  position: relative;
+  text-align: center;
+}
+
+.sub-profile-main {
+  position: relative;
+  background-color: #46cd2f;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+.profile-main .fa-user {
+  background-color: #46cd2f;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  position: relative;
+}
+.profile-main-non-active {
+  text-align: center;
+}
+.profile-main-non-active .fa-user {
+  background-color: #8e8e8e;
+  border: 2px solid #cfcfcf;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile-check {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 8px;
+  background: #19a700;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.add-dependent i {
+  background-color: #46cd2f;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.add-dependent span {
+  color: #000000;
+  font-size: 14px;
+}
+.footer-bar {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+.footer-bar p {
+  color: #a6a6a6;
+  margin-bottom: 0;
+}
+.link-allow-class {
+  color: #18c0ff !important;
+  text-decoration: underline !important;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-main .caption {
+    font-size: 11px !important;
+  }
+}
