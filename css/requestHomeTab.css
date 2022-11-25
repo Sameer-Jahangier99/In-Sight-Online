@@ -122,7 +122,8 @@ label {
 }
 
 .submit-btn {
-  background-color: #00b3f6;
+  /* background-color: #00b3f6; */
+  background-color: #0479FB;
   padding: 5px 8px;
   border: none;
   outline: none;
